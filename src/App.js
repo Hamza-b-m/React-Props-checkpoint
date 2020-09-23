@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <Profile bio={bio} prof={prof} show={show}>
+      <Profile Name={Name} bio={bio} prof={prof} show={show}>
         <img src={myimage} />
       </Profile>
     </div>

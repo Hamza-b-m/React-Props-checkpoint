@@ -5,6 +5,7 @@ const Profile = (props) => {
   return (
     <>
       <div>{props.Name}</div>
+      {props.children}
       <div>{props.bio}</div>
       <div>{props.prof}</div>
       <button onClick={() => props.show(props.Name)}>Click me</button>
@@ -13,7 +14,7 @@ const Profile = (props) => {
 };
 
 Profile.defaultProps = {
-  Name: "Ahmed Ben MAnâa",
+  Name: "Ahmed Ben Manâa",
   bio: "i enjoy traveling",
   prof: "engineer",
 };
